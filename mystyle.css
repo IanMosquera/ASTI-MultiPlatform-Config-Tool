@@ -1,0 +1,75 @@
+body {
+	font-size: 12px; 
+	font-weight: bold;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+button {
+    background-color: #4CAF50; 
+    border: 2px solid #4CAF50; 
+    border-radius: 2px;
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 12px; 
+    font-family: 'Open Sans',Arial,sans-serif;
+    margin: 4px 2px; 
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: #FFFFFF; 
+	color: #4CAF50;
+	font-size: 12px;
+}
+button:disabled {
+	background-color: #DDDDDD;
+	border: 2px solid #DDDDDD; 
+	color: #4CAF50;
+}
+select {
+	width: 200px;
+	border: 2px solid #4CAF50; 
+	border-radius: 4px;
+	padding: 9px;
+	display: inline-block; 
+	font-size: 12px;
+	font-weight: bold;
+	margin: 4px;
+}
+form {
+	padding: 10px;
+}
+input[type=text] {
+	border: 2px solid #4CAF50; 
+	border-radius: 4px;
+	padding: 8px; 
+	margin-right: 10px;
+    margin-left: 5px;
+}
+input[type=radio]{
+	margin:3px;
+}
+div.opt {
+	width: 120px;
+	display: inline-block;
+}
+progress {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+progress:progress-bar-value {
+	-webkit-appearance: none;
+	background: orangered;
+}
+textarea#textarea {
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ASTI Config Tool",
+  "version": "3",
+  "manifest_version": 2,
+  "permissions": 
+    [{"fileSystem": ["write", "retainEntries", "directory"]},
+    "storage", "serial"
+  ],
+  "file_handlers": { "text": { "types": [ "text/*"]}
+  },
+
+  "minimum_chrome_version": "40",
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "content_scripts": [
+    {
+      "css": ["mystyle.css"]
+    }
+  ]
+}
